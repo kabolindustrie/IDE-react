@@ -1,3 +1,4 @@
+import Tabs from "./components/Tabs"
 function App() {
   return (
     <div className="bg-zinc-900 min-h-screen flex flex-col">
@@ -14,6 +15,7 @@ function App() {
           <div className="w-[6px] h-[6px] bg-slate-200 rounded-full"></div>
         </div>
       </div>
+      <Tabs/>
     </div>
   )
 }

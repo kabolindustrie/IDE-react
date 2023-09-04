@@ -22,7 +22,10 @@ export default function Tabs() {
         ))}
       </div>
       <div className="w-full grow relative">
-        <CodeTab/>
+        <CodeTab
+        id={tabIndex}
+        code={tabs.find(obj => obj.id === tabIndex).code}
+        />
       </div>
     </div>
   )
